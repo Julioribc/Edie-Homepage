@@ -1,95 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1,
-  maximum-scale=5"
-    />
-
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5"/>
     <link rel="icon" href="devchallenges.png" />
-
-    <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="https://devchallenges.io/"
-    />
-
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
-
+    <link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet"/>
     <title>Devchallenges</title>
-
-    <style>
-      body {
-        font-family: "Poppins", sans-serif;
-      }
-
-      ul {
-        padding-left: 24px;
-      }
-
-      li {
-        margin-bottom: 8px;
-      }
-
-      .welcome {
-        max-width: 800px;
-        margin: 0 auto;
-      }
-
-      .welcome-text {
-        margin-top: 30vh;
-        font-weight: 500;
-      }
-
-      .welcome-text p {
-        font-size: 1rem;
-        font-weight: 400;
-      }
-
-      .welcome-text h1 {
-        font-size: 1.5rem;
-      }
-
-      .welcome-text a {
-        color: #f7542e;
-      }
-    </style>
+    <link rel="stylesheet" href="css/styles.css">
   </head>
+
+
   <body>
-    <div class="welcome">
-      <div class="welcome-text">
-        <h1>
-          Welcome to
-          <a href="https://devchallenges.io/" target="_blank"
-            >devchallenges.io</a
-          >
-        </h1>
+      <div class="container">
+           <!-- Section Navbar -->
+        <section class="navbar">
+            <div class="btn-primary-interior">
+            <a class="btn-interior" href="#">Edie</a>
+            </div>
+            <div class="navigation">
+            <button class="hamburger hamburger--vortex hamburguesa" type="button" id="btn">
+                <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+                </span>
+            </button>
+            <aside class="bar-navigation">
+                <div class="bar-btn">
+                <a class="btn-navigation active" href="#">Home</a>
+                <a class="btn-navigation" href="#">Services</a>
+                <a class="btn-navigation" href="#">Our Works</a>
+                <a class="btn-navigation" href="#">Clients</a>
+                <a class="btn-navigation" href="#">Contact</a>
+                </div>
+            </aside>
+            </div>
+        </section>
 
-        <p>
-          If you have any questions, don't hesitate to ask on Discord. Here are
-          7 general steps to complete the challenge:
-        </p>
+        <!-- Section Home -->
+        <section class="home">
+            <div>
+                <a href="">Unhappy with your website?</a>
+                <h1>We create beautiful and fast web services</h1>
+            </div>
+                <img src="images/heroImage.jpg" alt="img-home" width="200px">
+            <div>
+                <h3>Story, emotion and purpose</h3>
+                <p>We help transform your ideas into real world applications that will outperform your toughest competition and help you achieve your strategic goals in short period of time</p>
+
+                <form action="">
+                    <label for="">Want us to contact you?</label>
+                    <input type="text">
+                    <button>Join</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Section Services  -->
+        <section class="services">
+            <h2>We offter high demand services</h2>
+            <div>
+                <div>
+                    <!-- ICONO -->
+                    <h3>UI/UX Design</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+                    <a href="">Get started</a>
+                </div>
+                <div>
+                    
+                    <!-- ICONO -->
+                    <h3>Front End</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+                    <a href="">Get started</a>
+                </div>
+                <div>
+                    <!-- ICONO -->
+                    <h3>Back End</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+                    <a href="">Get started</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Our Works -->
+        <section class="our-works">
+            <h2>Good design means good business</h2>
+            <div>
+                <div>
+                    <img src="images/smarthome.jpg" alt="image-smarthome" width="200">
+                        <h4>Full stack application</h4>
+                        <h3>Smart home dashboard</h3>
+                </div>
+                <div>
+                    <img src="images/onboard.png" alt="image-smarthome" width="200">
+                        <h4>UX/UI design</h4>
+                        <h3>Onboard applicatio</h3>
+                </div>
+                <div>
+                    <img src="images/booking.png" alt="image-smarthome" width="200">
+                        <h4>Mobile application</h4>
+                        <h3>Booking system</h3>
+                </div>
+                <div>
+                    <img src="images/juice-product.png" alt="image-smarthome" width="200">
+                        <h4>Front End application</h4>
+                        <h3>Juice product homepage</h3>
+                </div>
+                <a href="">see more</a>
+            </div>
+        </section>
+
+        <!-- Section Team -->
+        <section class="team">
+            <div>
+                <div>
+                    <h3>Meet the team</h3>
+                    <h2>We are chilled and a laidback team</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div>
+                    <div>
+                        <img src="images/person3.png" alt="people" width="200">
+                    </div>
+                    <div>
+                        <div>
+                            <img src="images/person1.png" alt="people" width="200">
+                        </div>
+                        <div>
+                            <img src="images/person2.png" alt="people" width="200">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h2>"Fast and outstanding resutls. Edie understands their customer's needs. They have a young and talented team."</h2>
+                    <div>
+                        <img src="images/person4.png" alt="people" width="200">
+                        <div>
+                            <h3>Carlos Tran</h3>
+                            <h4>The decorate Gatsby</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Contact -->
+        <section class="contact">
+            <div>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Our Works</a></li>
+                    <li><a href="">Clients</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h2>Edie</h2>
+                <div>
+                <img src="images/instagram.svg" alt="icono">
+                <img src="images/linkedin.svg" alt="icono">
+                <img src="images/twitter.svg" alt="icono">
+                </div>
+            </div>
+            <div>
+                <form action="">
+                    <label for="">Want us to contact you?</label>
+                    <input type="text">
+                    <button>Join</button>
+                </form> 
+            </div>
+            <footer>created by <a href="https://twitter.com/Julioribc" target="_blank">Julio Bolivar</a> - DevChallenges.io</footer>
+        </section>
       </div>
-
-      <ul>
-        <li><b>Step 1:</b> Create a new repository on github</li>
-        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
-        <li>
-          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
-        </li>
-        <li><b>Step 4:</b> Complete all user stories</li>
-        <li><b>Step 5:</b> Update README.md</li>
-        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
-        <li>
-          <b>Step 7:</b> Share your solution on Discord, Twitter and other
-          platforms to ask for feedback
-        </li>
-      </ul>
-    </div>
   </body>
 </html>
